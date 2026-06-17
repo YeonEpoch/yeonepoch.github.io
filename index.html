@@ -71,7 +71,7 @@
 
     <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        <!-- Section 1: 专辑版本矩阵 (完整保留) -->
+        <!-- Section 1: 配置解析 -->
         <section class="mb-20">
             <h3 class="text-2xl section-heading">01 / 配置解析</h3>
             <p class="text-sm text-gray-600 mb-6">共 5 大版本，11 种细分 Set。版本内小卡池互通。</p>
@@ -157,7 +157,7 @@
             </div>
         </section>
 
-        <!-- Section 2: 核心科普与规则 (完整保留) -->
+        <!-- Section 2: 核心科普与规则 -->
         <section class="mb-20">
             <h3 class="text-2xl section-heading">02 / 购买指南</h3>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -212,7 +212,7 @@
             </div>
         </section>
 
-        <!-- Section 3: 全新按平台分类的导购区 -->
+        <!-- Section 3: 平台购买直达 -->
         <section class="mb-20">
             <h3 class="text-2xl section-heading flex justify-between items-end">
                 <span>03 / 平台购买直达</span>
@@ -221,6 +221,7 @@
             
             <div class="space-y-4" id="accordion-container">
                 
+                <!-- 平台 1：京东 -->
                 <div class="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm">
                     <button class="w-full px-6 py-5 flex justify-between items-center bg-white hover:bg-gray-50 transition-colors" onclick="toggleAccordion('plat-jd')">
                         <div class="flex items-center">
@@ -280,11 +281,12 @@
                                     <span class="font-bold text-lg text-[#2A3240]">￥114.24 <span class="text-xs text-gray-400 font-normal ml-1">➔</span></span>
                                 </a>
                             </div>
-                            </div>
 
                         </div>
                     </div>
+                </div>
 
+                <!-- 平台 2：艾肯 -->
                 <div class="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm">
                     <button class="w-full px-6 py-5 flex justify-between items-center bg-white hover:bg-gray-50 transition-colors" onclick="toggleAccordion('plat-iken')">
                         <div class="flex items-center">
@@ -293,7 +295,7 @@
                         </div>
                         <svg class="chevron w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                     </button>
-<div id="plat-iken" class="accordion-content border-t border-gray-100">
+                    <div id="plat-iken" class="accordion-content border-t border-gray-100">
                         <div class="p-6 bg-gray-50">
                             
                             <!-- 然时强推 -->
@@ -345,10 +347,12 @@
                                     <span class="font-bold text-lg text-[#2A3240]">￥155</span>
                                 </a>
                             </div>
-                            </div>
 
                         </div>
                     </div>
+                </div>
+
+                <!-- 平台 3：YETIMALL -->
                 <div class="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm">
                     <button class="w-full px-6 py-5 flex justify-between items-center bg-white hover:bg-gray-50 transition-colors" onclick="toggleAccordion('plat-yeti')">
                         <div class="flex items-center">
@@ -357,7 +361,7 @@
                         </div>
                         <svg class="chevron w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                     </button>
-                   <div id="plat-yeti" class="accordion-content border-t border-gray-100">
+                    <div id="plat-yeti" class="accordion-content border-t border-gray-100">
                         <div class="p-6 bg-gray-50">
                             <div class="space-y-4">
                                 
@@ -398,7 +402,9 @@
                             </div>
                         </div>
                     </div>
+                </div>
 
+                <!-- 平台 4：MS -->
                 <div class="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm">
                     <button class="w-full px-6 py-5 flex justify-between items-center bg-white hover:bg-gray-50 transition-colors" onclick="toggleAccordion('plat-ms')">
                         <div class="flex items-center">
@@ -407,7 +413,7 @@
                         </div>
                         <svg class="chevron w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                     </button>
-                  <div id="plat-ms" class="accordion-content border-t border-gray-100">
+                    <div id="plat-ms" class="accordion-content border-t border-gray-100">
                         <div class="p-6 bg-gray-50">
                             
                             <!-- 然时强推 (双卡片) -->
@@ -467,6 +473,7 @@
 
                         </div>
                     </div>
+                </div>
 
             </div>
         </section>
